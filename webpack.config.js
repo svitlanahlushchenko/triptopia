@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/triptopia/',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -25,11 +25,16 @@ module.exports = {
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       {
-        test: /\.(png|jpg|gif|svg|webp)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: 'images/[name].[hash][ext]',
-        },
+        test: /\.(png|jpg|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: 'images/',
+            },
+          },
+        ],
       },
       {
         test: /\.(woff|woff2|ttf|eot|otf)$/i,
@@ -59,5 +64,5 @@ module.exports = {
   stats: {
     errorDetails: true,
   },
-  mode: 'production',
+  mode: 'development',
 };

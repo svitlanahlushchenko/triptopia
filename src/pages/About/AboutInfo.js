@@ -17,7 +17,7 @@ function AboutInfo() {
             <img
               className='about-info__menu-image'
               src='/images/book-with-confident.svg'
-              alt='photo'
+              alt='Earth'
             ></img>
             <div className='about-info__menu-text'>
               <h3 className='about-info__menu-item-title'>
@@ -33,7 +33,7 @@ function AboutInfo() {
             <img
               className='about-info__menu-image'
               src='/images/freedom-to-discover.svg'
-              alt='photo'
+              alt='Baggage'
             ></img>
             <div className='about-info__menu-text'>
               <h3 className='about-info__menu-item-title'>
@@ -49,7 +49,7 @@ function AboutInfo() {
             <img
               className='about-info__menu-image'
               src='/images/weather-vultures.svg'
-              alt='photo'
+              alt='Compas'
             ></img>
             <div className='about-info__menu-text'>
               <h3 className='about-info__menu-item-title'>Weather Vultures</h3>

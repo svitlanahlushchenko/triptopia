@@ -92,32 +92,32 @@ function Footer() {
               <img
                 className='footer__photo'
                 src='/images/gallery1.png'
-                alt='Beautiful Photo'
+                alt='Beauty'
               />
               <img
                 className='footer__photo'
                 src='/images/gallery2.png'
-                alt='Beautiful Photo'
+                alt='Beauty'
               />
               <img
                 className='footer__photo'
                 src='/images/gallery3.png'
-                alt='Beautiful Photo'
+                alt='Beauty'
               />
               <img
                 className='footer__photo'
                 src='/images/gallery4.png'
-                alt='Beautiful Photo'
+                alt='Beauty'
               />
               <img
                 className='footer__photo'
                 src='/images/gallery5.png'
-                alt='Beautiful Photo'
+                alt='Beauty'
               />
               <img
                 className='footer__photo'
                 src='/images/gallery6.png'
-                alt='Beautiful Photo'
+                alt='Beauty'
               />
             </div>
           </div>
