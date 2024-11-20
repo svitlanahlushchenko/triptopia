@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '/triptopia/',
   },
   module: {
     rules: [
@@ -64,5 +64,5 @@ module.exports = {
   stats: {
     errorDetails: true,
   },
-  mode: 'development',
+  mode: 'production',
 };
