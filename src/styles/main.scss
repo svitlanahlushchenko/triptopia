@@ -1,0 +1,30 @@
+@import './utils/variables';
+@import './utils/base';
+@import './utils/text';
+
+@import './components/buttons';
+@import './components/footer';
+@import './components/hero-section-secondary';
+@import './components/Navbar';
+
+@import './layouts/container';
+
+@import '../pages/About/about-info';
+@import '../pages/About/about-team';
+
+@import '../pages/Blog/blog-news-section';
+
+@import '../pages/Destination/destination-content';
+
+@import '../pages/Faq/faq-info';
+@import '../pages/Faq/faq-questuions-section';
+
+@import '../pages/Home/home-about-section';
+@import '../pages/Home/home-hero-section';
+@import '../pages/Home/home-places-section';
+@import '../pages/Home/home-reviews-section';
+@import '../pages/Home/home-saving-section';
+@import '../pages/Home/home-services-section';
+@import '../pages/Home/home-tours-section';
+
+@import '../pages/Pricing/pricing-tarif-section';

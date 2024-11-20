@@ -1,0 +1,36 @@
+.info-section {
+  background-color: $light-text;
+  padding-bottom: 120px;
+  @media (max-width: $bp-tablet) {
+    padding-bottom: 60px;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__title {
+    font-family: 'Poppins';
+    font-size: 34px;
+    line-height: 1.1;
+    color: $dark-title;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+  }
+  &__menu {
+    padding: 24px 0;
+    color: $dark-title;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  &__menu-item {
+    display: flex;
+    align-items: center;
+  }
+  &__icon {
+    width: 18px;
+    height: 18px;
+    fill: $dark-title;
+  }
+}

@@ -1,0 +1,21 @@
+.saving-section {
+  &__container {
+    padding: 510px 0 120px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $light-text;
+    max-width: 500px;
+    @media (max-width: $bp-tablet) {
+      font-size: 40px;
+    }
+    @media (max-width: $bp-mobile) {
+      font-size: 34px;
+    }
+  }
+}

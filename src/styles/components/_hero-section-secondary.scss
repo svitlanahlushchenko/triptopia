@@ -1,0 +1,42 @@
+.hero-section-secondary {
+  &__title {
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 1.2;
+    color: $light-text;
+    padding-top: 180px;
+    text-align: center;
+    @media (max-width: $bp-tablet) {
+      font-size: 36px;
+      padding-top: 120px;
+    }
+
+    @media (max-width: $bp-mobile) {
+      font-size: 28px;
+      padding-top: 80px;
+    }
+  }
+  &__text {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 180px;
+    color: $light-text;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text-accent {
+    color: $orange;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: $orange;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      bottom: 8px;
+      left: -12px;
+    }
+  }
+}

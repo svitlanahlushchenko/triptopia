@@ -1,0 +1,53 @@
+.team-section {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (max-width: $bp-tablet) {
+    padding: 60px 0;
+  }
+  &__title {
+    max-width: 590px;
+    padding-bottom: 60px;
+    text-align: center;
+  }
+  &__wokers {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding-top: 280px;
+    width: 100%;
+  }
+  &__woker-card {
+    position: relative;
+
+    width: calc(33.33% - 24px);
+    @media (max-width: $bp-tablet) {
+      width: calc(50% - 24px);
+    }
+    @media (max-width: $bp-mobile) {
+      width: 100%;
+    }
+  }
+  &__woker-photo {
+    border: 1px solid $dark-title;
+    border-radius: 50%;
+    padding: 16px;
+    position: absolute;
+    top: -90%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  &__woker-info {
+    color: white;
+    background-color: $dark-title;
+    border-radius: 8px;
+    padding: 110px 20px 40px;
+    text-align: center;
+  }
+  &__woker-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 34px;
+  }
+}

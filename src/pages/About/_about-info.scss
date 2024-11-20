@@ -1,0 +1,33 @@
+.about-info {
+  padding: 140px 0;
+  display: flex;
+  align-items: center;
+  gap: 144px;
+  @media (max-width: $bp-tablet) {
+    flex-direction: column;
+    gap: 72px;
+    padding: 100px 0;
+  }
+  &__text-container {
+    max-width: 580px;
+  }
+  &__text {
+    padding: 16px 0 32px;
+  }
+  &__menu-item {
+    padding-bottom: 32px;
+    display: flex;
+    gap: 16px;
+  }
+  &__menu-image {
+    width: 40px;
+    height: 40px;
+  }
+  &__menu-item-title {
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: $dark-title;
+  }
+}

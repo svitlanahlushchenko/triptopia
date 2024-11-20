@@ -1,0 +1,123 @@
+.footer {
+  background-color: $dark-title;
+  &::after {
+    content: '';
+    width: 100vw;
+    height: 1px;
+    background-color: $brand-color;
+    position: absolute;
+    bottom: 72px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    color: $light-text;
+    padding: 60px 0 130px;
+  }
+  &__container::after {
+    content: '';
+    width: 100vw;
+    height: 1px;
+    background-color: $brand-color;
+    position: absolute;
+    bottom: 72px;
+  }
+  &__title {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-bottom: 16px;
+  }
+  &__info {
+    max-width: 268px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  &__main-logo {
+    width: 94px;
+    height: 36px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    &:hover {
+      transform: scale(1.05);
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+  &__socials {
+    display: flex;
+    gap: 12px;
+  }
+  &__icon {
+    width: 16px;
+    height: 24px;
+    fill: $light-text;
+  }
+  &__about-menu,
+  &__contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 4px 10px rgba(1, 46, 65, 0.5);
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+    & span {
+      position: relative;
+      z-index: 1;
+    }
+  }
+  &__socials-icon {
+    width: 16px;
+    height: 24px;
+    fill: $light-text;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 4px 10px rgba(1, 46, 65, 0.5);
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+    & span {
+      position: relative;
+      z-index: 1;
+    }
+  }
+  &__photo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+  }
+  &__photo {
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 4px 10px rgba(1, 46, 65, 0.5);
+    }
+  }
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    color: $light-text;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+    padding: 24px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

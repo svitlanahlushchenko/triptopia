@@ -1,0 +1,19 @@
+.accent-text {
+  color: $orange;
+  text-transform: uppercase;
+  padding-bottom: 6px;
+}
+
+.section-title {
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: $dark-title;
+  @media (max-width: $bp-tablet) {
+    font-size: 40px;
+  }
+  @media (max-width: $bp-mobile) {
+    font-size: 34px;
+  }
+}

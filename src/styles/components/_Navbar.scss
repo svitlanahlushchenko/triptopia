@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  padding: 16px;
+  @media (max-width: $bp-tablet) {
+    justify-content: space-around;
+    gap: 20px;
+  }
+  &__main-logo {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    &:hover {
+      transform: scale(1.05);
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+  &__menu {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: $bp-tablet) {
+      display: none;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      background-color: $light-text;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(1, 46, 65, 0.3);
+      z-index: 999;
+    }
+
+    &.active {
+      display: flex;
+    }
+  }
+
+  &__link {
+    transition: transform 0.2s ease, color 0.2s ease;
+    display: inline-block;
+
+    &:hover {
+      transform: scale(1.1);
+      color: $orange;
+    }
+  }
+
+  &__toggle {
+    display: none;
+
+    @media (max-width: $bp-tablet) {
+      display: block;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+
+      &-icon {
+        width: 30px;
+        height: 3px;
+        background-color: $brand-color;
+        position: relative;
+        transition: all 0.3s;
+
+        &::before,
+        &::after {
+          content: '';
+          width: 30px;
+          height: 3px;
+          background-color: $brand-color;
+          position: absolute;
+          left: 0;
+          transition: all 0.3s;
+        }
+
+        &::before {
+          top: -10px;
+        }
+
+        &::after {
+          top: 10px;
+        }
+      }
+    }
+  }
+}
