@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function SavingSection() {
   const sectionStyle = {
-    backgroundImage: new URL('/images/mountain-background.png'),
+    backgroundImage: 'url(/images/mountain-background.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };

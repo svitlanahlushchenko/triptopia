@@ -2,7 +2,7 @@ import React from 'react';
 
 function PricingHeroSection() {
   const sectionStyle = {
-    backgroundImage: new URL('/images/secondary-hero-background.png'),
+    backgroundImage: 'url(/images/secondary-hero-background.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };

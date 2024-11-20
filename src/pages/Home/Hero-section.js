@@ -16,7 +16,7 @@ const HeroSection = () => {
     fade: true,
   };
   const sectionStyle = {
-    backgroundImage: new URL('/images/hero-background.png'),
+    backgroundImage: 'url(/images/hero-background.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   };
