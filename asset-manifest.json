@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/triptopia/static/css/main.9a34b681.css",
-    "main.js": "/triptopia/static/js/main.73b49701.js",
+    "main.js": "/triptopia/static/js/main.e9401f59.js",
     "static/media/roboto-latin-900italic.woff": "/triptopia/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "/triptopia/static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
     "static/media/roboto-latin-500italic.woff": "/triptopia/static/media/roboto-latin-500italic.18d00f739ff1e1c52db1.woff",
@@ -68,10 +68,10 @@
     "static/media/slick.woff": "/triptopia/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/triptopia/index.html",
     "main.9a34b681.css.map": "/triptopia/static/css/main.9a34b681.css.map",
-    "main.73b49701.js.map": "/triptopia/static/js/main.73b49701.js.map"
+    "main.e9401f59.js.map": "/triptopia/static/js/main.e9401f59.js.map"
   },
   "entrypoints": [
     "static/css/main.9a34b681.css",
-    "static/js/main.73b49701.js"
+    "static/js/main.e9401f59.js"
   ]
 }
